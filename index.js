@@ -9,4 +9,7 @@ function handleClick(event) {
     item.textContent = input.value;
 
     list.appendChild(item);
+
+
+    const asd = [];
 }
