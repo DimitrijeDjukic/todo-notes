@@ -8,17 +8,14 @@
 </head>
 <body>
     <div id="app">
+        <h1>header</h1>
         <main>
-            <div>
-                <form action="/add/todo" method="post"></form>
-                <input type="text" name="" id="todo-note" name="todo">
+            <div class="input">
+                <input autofocus id="todo-note" type="text" name="todo" />
                 <button id="add-todo">Add ToDo</button>
             </div>
-            <ul>
-                <li>ToDO 1</li>
-                <li>ToDO 2</li>
-                <li>ToDO 3</li>
-            </ul>
+            <ul class="list"></ul>
+            <ul id="todo-list" class="list"></ul>
         </main>
     </div>
 
